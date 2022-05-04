@@ -10,6 +10,13 @@ const Home: NextPage = () => {
           <a className="normal-case cursor-pointer text-3xl font-bold text-white">
             Agus
           </a>
+          <div className="flex-none ml-auto">
+            <ul className="p-0">
+              <li>
+                <a href="/portfolio" className="text-white text-xl cursor-pointer">Portfolio</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
       <hr />
@@ -22,8 +29,7 @@ const Home: NextPage = () => {
               <br />
               Muchamad
               <br />
-              Agus 
-              Hermawan
+              Agus Hermawan
             </span>
           </h1>
         </main>
