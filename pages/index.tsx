@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import Link from "next/link";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
@@ -13,7 +14,9 @@ const Home: NextPage = () => {
           <div className="flex-none ml-auto">
             <ul className="p-0">
               <li>
-                <a href="/portfolio" className="text-white text-xl cursor-pointer">Portfolio</a>
+                <Link href="/portfolio">
+                  <a className="text-white text-xl cursor-pointer">Portfolio</a>
+                </Link>
               </li>
             </ul>
           </div>
